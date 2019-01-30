@@ -20,21 +20,26 @@ class Filter {
 	{
 		$config = [];
 		foreach ($filters as $definition) {
-			if(array_key_exists('title', $definition)) {
-				$title = $definition['title'];
-				unset($definition['title']);
-			} else {
-				$className = basename($definition['class']);
-				$title = Inflector::titleize($className);
-			}
-			if($title) {
-				Output::line();
-				Output::pipe($title);
-				Output::line();
-			}
-			$filterCollection = new ScenarioCollection($definition);
-			$config = $filterCollection->runAll($config);
+            $config = self::runFilter($definition, $config);
 		}
 		return $config;
 	}
+
+    private static function runFilter($definition, $config) {
+        if(array_key_exists('title', $definition)) {
+            $title = $definition['title'];
+            unset($definition['title']);
+        } else {
+            $className = basename($definition['class']);
+            $title = Inflector::titleize($className);
+        }
+        if($title) {
+            Output::line();
+            Output::pipe($title);
+            Output::line();
+        }
+        $filterCollection = new ScenarioCollection([$definition]);
+        $config = $filterCollection->runAll($config);
+    }
+
 }
