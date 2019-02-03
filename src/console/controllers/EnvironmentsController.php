@@ -2,11 +2,11 @@
 
 namespace yii2lab\init\console\controllers;
 
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\extension\console\base\Controller;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\extension\console\base\Controller;
 use yii2lab\init\domain\helpers\Environments;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\console\helpers\input\Question;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\console\helpers\input\Question;
 
 class EnvironmentsController extends Controller
 {

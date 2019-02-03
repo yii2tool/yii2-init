@@ -2,7 +2,7 @@
 
 namespace yii2lab\init\admin\helpers;
 
-use yii2lab\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\menu\interfaces\MenuInterface;
 
 class Menu implements MenuInterface {
 	

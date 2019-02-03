@@ -2,7 +2,7 @@
 
 namespace yii2lab\init\domain\helpers;
 
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 class PlaceholderHelper {
 	

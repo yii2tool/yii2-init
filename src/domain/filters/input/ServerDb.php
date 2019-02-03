@@ -2,11 +2,11 @@
 
 namespace yii2lab\init\domain\filters\input;
 
-use yii2lab\app\admin\forms\ConnectionForm;
-use yii2lab\extension\console\helpers\input\Enter;
-use yii2lab\extension\console\helpers\input\Question;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\yii\helpers\ArrayHelper;
+use yii2rails\app\admin\forms\ConnectionForm;
+use yii2rails\extension\console\helpers\input\Enter;
+use yii2rails\extension\console\helpers\input\Question;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\yii\helpers\ArrayHelper;
 
 class ServerDb extends BaseFilter {
 

@@ -4,9 +4,9 @@ namespace yii2lab\init\domain\helpers;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
-use yii2lab\extension\arrayTools\helpers\ArrayIterator;
-use yii2lab\domain\data\Query;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\extension\arrayTools\helpers\ArrayIterator;
+use yii2rails\domain\data\Query;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 class Project {
 

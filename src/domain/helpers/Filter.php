@@ -3,9 +3,9 @@
 namespace yii2lab\init\domain\helpers;
 
 use yii\helpers\Inflector;
-use yii2lab\extension\console\helpers\Output;
-use yii2lab\extension\scenario\collections\ScenarioCollection;
-use yii2lab\extension\scenario\helpers\ScenarioHelper;
+use yii2rails\extension\console\helpers\Output;
+use yii2rails\extension\scenario\collections\ScenarioCollection;
+use yii2rails\extension\scenario\helpers\ScenarioHelper;
 
 class Filter {
 	
