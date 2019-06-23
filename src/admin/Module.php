@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\admin;
+namespace yii2tool\init\admin;
 
 use yii2lab\applicationTemplate\common\enums\ApplicationPermissionEnum;
 use yii2rails\extension\web\helpers\Behavior;
@@ -8,7 +8,7 @@ use yii2rails\extension\web\helpers\Behavior;
 /**
  * Class Module
  * 
- * @package yii2lab\init\admin
+ * @package yii2tool\init\admin
  */
 class Module extends \yii\base\Module {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\console;
+namespace yii2tool\init\console;
 
 use yii\base\Module as YiiModule;
 

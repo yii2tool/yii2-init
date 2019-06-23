@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\domain\filters\store;
+namespace yii2tool\init\domain\filters\store;
 
 use yii2rails\extension\scenario\base\BaseScenario;
 

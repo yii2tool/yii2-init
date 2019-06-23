@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2lab\init\domain\filters\store;
+namespace yii2tool\init\domain\filters\store;
 
 use yii2rails\extension\console\helpers\Error;
 use yii2rails\extension\console\helpers\Output;
 use yii2rails\extension\scenario\base\BaseScenario;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2lab\init\domain\helpers\FileSystemHelper;
+use yii2tool\init\domain\helpers\FileSystemHelper;
 
 class SetWritable extends BaseScenario {
 	

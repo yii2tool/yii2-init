@@ -13,7 +13,7 @@ composer require yii2lab/yii2-init
 #!/usr/bin/env php
 <?php
 
-use yii2lab\init\domain\helpers\Init;
+use yii2tool\init\domain\helpers\Init;
 
 $name = 'console';
 $path = '.';

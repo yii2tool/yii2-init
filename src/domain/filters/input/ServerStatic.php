@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\domain\filters\input;
+namespace yii2tool\init\domain\filters\input;
 
 use yii2rails\extension\scenario\base\BaseScenario;
 

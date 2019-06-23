@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\domain\exceptions;
+namespace yii2tool\init\domain\exceptions;
 
 use yii\web\HttpException;
 

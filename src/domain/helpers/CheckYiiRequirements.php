@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\domain\helpers;
+namespace yii2tool\init\domain\helpers;
 
 use Imagick;
 use yii\helpers\ArrayHelper;

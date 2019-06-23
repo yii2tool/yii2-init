@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2lab\init\admin\controllers;
+namespace yii2tool\init\admin\controllers;
 
 use yii\web\Controller;
-use yii2lab\init\domain\helpers\CheckYiiRequirements;
+use yii2tool\init\domain\helpers\CheckYiiRequirements;
 
 class RequirementsController extends Controller
 {

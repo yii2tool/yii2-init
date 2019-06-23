@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2lab\init\console\controllers;
+namespace yii2tool\init\console\controllers;
 
 use yii2rails\app\domain\helpers\EnvService;
 use yii2rails\extension\console\base\Controller;
-use yii2lab\init\domain\helpers\Environments;
+use yii2tool\init\domain\helpers\Environments;
 use yii2rails\extension\console\helpers\Output;
 use yii2rails\extension\console\helpers\input\Question;
 

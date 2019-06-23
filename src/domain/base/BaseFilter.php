@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2lab\init\domain\base;
+namespace yii2tool\init\domain\base;
 
 use Yii;
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
 use yii2rails\extension\console\helpers\ArgHelper;
-use yii2lab\init\domain\helpers\PlaceholderHelper;
+use yii2tool\init\domain\helpers\PlaceholderHelper;
 
 abstract class BaseFilter extends Component {
 

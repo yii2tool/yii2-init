@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\init\admin\helpers;
+namespace yii2tool\init\admin\helpers;
 
 use yii2rails\extension\menu\interfaces\MenuInterface;
 
